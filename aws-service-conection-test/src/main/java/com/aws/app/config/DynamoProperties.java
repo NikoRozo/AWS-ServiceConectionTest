@@ -1,4 +1,4 @@
-package com.aws.app;
+package com.aws.app.config;
 
 import java.net.URI;
 
