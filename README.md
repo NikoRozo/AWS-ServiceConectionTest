@@ -11,7 +11,7 @@ Proyecto de Prueba de Concepto Conexión a Servicios de AWS y LocalStack
 - Docker Desktop
 - Dockerfile de LocalStack (https://github.com/NikoRozo/Docker_Practicas/blob/master/localstack/docker-compose.yml) - Windows
 
-## Dumentación Relebante
+## Dumentación Relevante
 - TestContainer (https://www.testcontainers.org/modules/localstack/)
 - Guia AWS SDK para Java 2.0 (https://docs.aws.amazon.com/es_es/sdk-for-java/v2/developer-guide/welcome.html)
 - Ejemplos en AWS y LocalStack (https://gist.github.com/lobster1234/57e803ebca47c3c263a9d53ccd1f1783)
