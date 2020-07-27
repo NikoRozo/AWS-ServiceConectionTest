@@ -16,6 +16,7 @@ Proyecto de Prueba de Concepto Conexión a Servicios de AWS y LocalStack
 - Guia AWS SDK para Java 2.0 (https://docs.aws.amazon.com/es_es/sdk-for-java/v2/developer-guide/welcome.html)
 - Ejemplos en AWS y LocalStack (https://gist.github.com/lobster1234/57e803ebca47c3c263a9d53ccd1f1783)
 - Ejemplos con AWS SDK 2.0 (https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/javav2/example_code)
+- Canal de Spring Academy, en especial el Video de AWS v2 con Spring Boot (https://www.youtube.com/watch?v=FOzAdoxdnSc)
 
 # Configuración de Credenciales en AWS
 Una vez instalado el CLI de AWS procedemos a realizar la consfiguración de nuestra Access Key ejecutando los siguientes comandos:
