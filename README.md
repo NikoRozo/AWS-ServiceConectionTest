@@ -13,6 +13,7 @@ Proyecto de Prueba de Concepto Conexión a Servicios de AWS y LocalStack
 
 ## Dumentación Relevante
 - TestContainer (https://www.testcontainers.org/modules/localstack/)
+- Usar Credenciales de AWS (https://docs.aws.amazon.com/es_es/sdk-for-java/v1/developer-guide/setup-credentials.html)
 - Guia AWS SDK para Java 2.0 (https://docs.aws.amazon.com/es_es/sdk-for-java/v2/developer-guide/welcome.html)
 - Ejemplos en AWS y LocalStack (https://gist.github.com/lobster1234/57e803ebca47c3c263a9d53ccd1f1783)
 - Ejemplos con AWS SDK 2.0 (https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/javav2/example_code)
@@ -42,6 +43,24 @@ Listar los recursos s3 de la cuenta configurada
 `aws s3 ls`
 
 `aws dynamodb list-tables`
+
+Adicional configuramos las Variables de entorno del Sistema:
+
+### Linux:
+
+`export AWS_ACCESS_KEY_ID=your_access_key_id`
+
+`export AWS_SECRET_ACCESS_KEY=your_secret_access_key`
+
+`export AWS_REGION=your_aws_region`
+
+### Windows:
+
+`set AWS_ACCESS_KEY_ID=your_access_key_id`
+
+`set AWS_SECRET_ACCESS_KEY=your_secret_access_key`
+
+`set AWS_REGION=your_aws_region`
 
 # Instalación de LocalStack Linux o WSL 2.0
 
