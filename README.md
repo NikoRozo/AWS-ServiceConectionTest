@@ -116,7 +116,7 @@ Desde el CLI de AWS ponemos agregar el Flag endpoint para utilizar el recurso de
 
 Intalamos el CLI de AWSLocal, para que se transparente, y ejecutamos el mismo comando pero con awslocal:
 
-`awslocal synamodb list-tables`
+`awslocal dynamodb list-tables`
 
 # Ejecutar el Proyecto
 

@@ -21,9 +21,7 @@ public class ServiceAWS {
 	void createTable(String name) {
 		dynamoDbClient.listTables().tableNames()
 		.forEach(System.out::println);
-		
-		dynamoDbClient.listTables().tableNames()
-		.forEach(System.out::println);
+
 		CreateTableRequest createtable =
 				CreateTableRequest.builder()
 				.tableName(name)
@@ -40,6 +38,7 @@ public class ServiceAWS {
 						.readCapacityUnits(5L)
 						.build())
 				.build();
+		
 		dynamoDbClient.createTable(createtable);
 		
 		dynamoDbClient.listTables().tableNames()
